@@ -79,3 +79,9 @@ article div button{
 article div button:hover{
     background: #f05454;
 }
+
+/* footer style  */
+footer{
+    background-color:#222831 ;
+    padding: 100px;
+}
