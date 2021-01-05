@@ -1,0 +1,81 @@
+  /* Header styles */
+header{
+    background-color:#222831 ;
+    padding: 10px 150px;
+    text-align: center;
+}
+header ul {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+header img, ul>li {
+    margin: 0 50px;
+}
+header ul li {
+    display: inline-block;
+}
+a{
+    color : #fff;
+    text-decoration: none;
+}
+a:hover{
+    color : #fff;
+}
+/* ......................................... */
+/* main style  */
+main {
+    padding: 20px 50px;
+}
+section div{
+    margin: 20px 0 0 0;
+}
+ /* gallery */
+ main  > section:first-child  div img{ 
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+section > img {
+    width: 100%;
+   }
+
+  /* article */
+  article{
+      width: 100%;
+      text-align: left;
+      padding: 20px 0;
+  }
+  h1{
+      font-size : 3rem;
+      margin-bottom: 30px;
+  }
+ article img{
+     display: inline-block;
+     width: 45%;
+ }
+ article div {
+     width: 50%;
+     float: right;
+ }
+ article div p{
+ height: 18rem;
+ overflow-y: scroll;
+}
+ p::after{
+    clear: both;
+   }
+article div button{
+    display: block;
+    padding: 20px 40px;
+    text-align: center;
+    background: #30475e;
+    border-style: none;
+    width: 200px;
+    margin: 20px 0;
+    color: #fff;
+    transition: 0.5s;
+}
+article div button:hover{
+    background: #f05454;
+}
