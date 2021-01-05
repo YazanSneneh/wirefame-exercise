@@ -1,8 +1,7 @@
   /* Header styles */
 header{
     background-color:#222831 ;
-    padding: 10px 150px;
-    text-align: center;
+    padding: 10px 0;
 }
 header ul {
     display: inline-block;
